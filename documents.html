@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>About Johnson Transportation</title>
+    <title>Documents - Johnson Transportation</title>
 </head>
 <body>
     <header>
@@ -20,19 +20,26 @@
         </nav>
     </header>
     <main>
-        <section id="company-history">
-            <h3>Our Story</h3>
-            <p>Johnson Transportation has been serving Sussex County schools for over 20 years, ensuring students have safe and reliable transportation to and from school.</p>
+        <section id="document-list">
+            <h2>Essential Documents</h2>
+            <ul>
+                <li>Application Form - <span class="placeholder">[Download Link Placeholder]</span></li>
+                <li>Training Manual - <span class="placeholder">[Download Link Placeholder]</span></li>
+                <li>Policy Handbook - <span class="placeholder">[Download Link Placeholder]</span></li>
+            </ul>
         </section>
-        <section id="values">
-            <h3>Our Values</h3>
-            <p>We pride ourselves on safety, reliability, and community commitment. Our drivers are the backbone of our company and our success.</p>
+        <section id="download-all">
+            <button onclick="downloadAllDocuments()">Download All Documents</button>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Johnson Transportation. All Rights Reserved.</p>
     </footer>
     <script>
+        function downloadAllDocuments() {
+            alert("Feature coming soon! Documents will be available to download here.");
+        }
+
         document.addEventListener('DOMContentLoaded', function () {
             const hamburger = document.getElementById('hamburger');
             const navLinks = document.getElementById('nav-links');
