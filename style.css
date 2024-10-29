@@ -1,17 +1,17 @@
 /* General Styles */
 body, html {
-    height: 100%; /* Ensure both body and html take up full height */
+    height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif; /* Updated font for a modern look */
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background-color: #ecf0f1; /* Softer white */
-    color: #2c3e50; /* Softer black */
+    background-color: #ecf0f1;
+    color: #2c3e50;
 }
 
 /* Wrapper to include footer at the bottom */
 .wrapper {
-    min-height: 100%; /* Extend to the full height of the page */
+    min-height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,8 +19,8 @@ body, html {
 
 /* Header */
 header {
-    background-color: #2c3e50; /* Softer black */
-    color: #f1c40f; /* Golden yellow */
+    background-color: #2c3e50;
+    color: #f1c40f;
     padding: 20px 0;
     text-align: center;
 }
@@ -44,14 +44,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #f1c40f; /* Golden yellow links */
+    color: #f1c40f;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ecf0f1; /* Lighter shade when hovered */
+    color: #ecf0f1;
 }
 
 /* Hamburger button styling */
@@ -88,59 +88,48 @@ nav ul li a:hover {
     header h1 {
         font-size: 1.5em;
     }
-
-    #hero h2 {
-        font-size: 1.8em;
-    }
 }
 
 /* Hero Section */
 #hero {
     position: relative;
-    background: url('JohnsonImage.png') no-repeat center center/cover; /* Set your new background image */
-    height: 350px; /* Adjust the height as needed */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background: url('JohnsonImage.png') no-repeat center center/cover; /* Display only the image here */
+    height: 350px;
+}
+
+/* Call to Action Section */
+#call-to-action {
     text-align: center;
-    padding: 20px;
-    color: #f1c40f; /* Keep text color consistent */
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
 }
 
-#hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(44, 62, 80, 0.5); /* Optional overlay to improve text readability */
-    z-index: 0;
+#call-to-action h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
 }
 
-#hero h2, #hero p, button {
-    position: relative;
-    z-index: 1; /* Ensure text and button appear above the image */
+#call-to-action p {
+    color: #4b4b4b;
+    margin-bottom: 20px;
 }
 
-/* Button Styling */
-button {
-    background-color: #f1c40f; /* Golden yellow */
-    color: #2c3e50; /* Softer black */
+#call-to-action button {
+    background-color: #f1c40f;
+    color: #2c3e50;
     border: none;
     padding: 12px 24px;
     font-size: 1em;
     cursor: pointer;
-    border-radius: 8px; /* Rounded corners */
-    margin-top: 10px;
+    border-radius: 8px;
     transition: transform 0.3s ease, background-color 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for floating effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-button:hover {
+#call-to-action button:hover {
     transform: scale(1.05);
-    background-color: #d4ac0d; /* Darker golden yellow on hover */
+    background-color: #d4ac0d;
 }
 
 /* Benefits Section */
@@ -167,13 +156,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    margin-top: auto; /* Ensure the footer always appears at the bottom */
+    margin-top: auto;
 }
-
-/* Wrapper for content alignment */
-main {
-    flex: 1 0 auto; /* Allows the main content to take up as much space as needed */
-}
-
 
 
