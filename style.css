@@ -88,7 +88,7 @@ nav ul li a:hover {
 /* Hero Section */
 #hero {
     position: relative;
-    background: url('JohnsonImage.png') no-repeat center center/cover; /* Set your new background image */
+    background: url('JohnsonImage.jpg') no-repeat center center/cover; /* Set your new background image */
     height: 350px; /* Adjust the height as needed */
     display: flex;
     flex-direction: column;
