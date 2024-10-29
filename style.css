@@ -93,16 +93,16 @@ nav ul li a:hover {
 /* Hero Section */
 #hero {
     position: relative;
-    background: url('JohnsonImage.png') no-repeat center center/cover; /* Display only the image here */
-    height: 350px;
+    background: url('JohnsonImage.png') no-repeat center center/cover; /* Set your new background image */
+    height: 500px; /* Increased height to show more of the image */
 }
 
 /* Call to Action Section */
 #call-to-action {
     text-align: center;
-    padding: 40px 20px;
+    padding: 60px 20px; /* Increased padding to create more space */
     background-color: #f9f9f9;
-    margin-top: 20px;
+    margin-top: 40px; /* Add more space between the hero image and call to action */
 }
 
 #call-to-action h2 {
@@ -136,7 +136,7 @@ nav ul li a:hover {
 #benefits {
     background: #fff;
     padding: 20px;
-    margin: 30px auto;
+    margin: 60px auto; /* Increased margin to provide more breathing room */
     width: 80%;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -146,6 +146,7 @@ nav ul li a:hover {
 #benefits h3 {
     color: #f1c40f;
 }
+
 
 /* Footer */
 footer {
