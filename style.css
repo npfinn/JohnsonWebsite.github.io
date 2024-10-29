@@ -1,11 +1,20 @@
 /* General Styles */
-body {
-    font-family: 'Roboto', sans-serif; /* Updated font for a modern look */
-    line-height: 1.6;
+body, html {
+    height: 100%; /* Ensure both body and html take up full height */
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif; /* Updated font for a modern look */
+    line-height: 1.6;
     background-color: #ecf0f1; /* Softer white */
     color: #2c3e50; /* Softer black */
+}
+
+/* Wrapper to include footer at the bottom */
+.wrapper {
+    min-height: 100%; /* Extend to the full height of the page */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* Header */
@@ -158,6 +167,12 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    margin-top: auto; /* Ensure the footer always appears at the bottom */
+}
+
+/* Wrapper for content alignment */
+main {
+    flex: 1 0 auto; /* Allows the main content to take up as much space as needed */
 }
 
 
